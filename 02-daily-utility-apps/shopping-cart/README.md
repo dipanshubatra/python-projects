@@ -20,3 +20,28 @@ A beginner-friendly Python terminal application that simulates a shopping cart s
 
 ```bash
 python shopping_cart.py
+name of food item
+(Or Enter x exit)  => kurkure
+Enter the price of kurkure => 2
+name of food item
+(Or Enter x exit)  => gabbage
+Enter the price of gabbage => 3
+name of food item
+(Or Enter x exit)  => coca cola
+Enter the price of coca cola => 8
+name of food item
+(Or Enter x exit)  => x
+
+......your cart is ready.......
+
+Generating...
+Generating..
+Generating...
+
+kurkure = $2.0
+gabbage = $3.0
+coca cola = $8.0
+.........................................
+<<<< You have to pay this amount $13.0 >>>>
+...........................................
+
