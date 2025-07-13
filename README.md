@@ -10,7 +10,8 @@ They are grouped by category for easy navigation and structured for learning and
 | Project | Description |
 |--------|-------------|
 | [Shopping Cart](02-daily-utility-apps/shopping-cart) | A Python CLI tool to add food items, simulate a loading effect, and display a total price |
-| [Concession Stand](02-daily-utility-apps/Concession-stand) | An interactive food ordering CLI app with a menu system, confirmation step, animation, and billing |
+| [Concession Stand](02-daily-utility-apps/concession-stand) | An interactive food ordering CLI app with a menu system, confirmation step, animation, and billing |
+| [Slots Game](02-daily-utility-apps/slots-game) | A fun emoji-based slot machine game with betting, balance, and sound effects |
 
 ---
 
@@ -34,15 +35,8 @@ Fun mini-projects and CLI games:
 
 ## 💻 How to Run Projects
 
+> ✅ Make sure Python 3 is installed on your system  
+> 🪟 Some projects use `winsound`, so run on Windows OS for full features
+
 ```bash
-# Go into the project folder
-cd 02-daily-utility-apps/shopping-cart
-
-# or
-
-cd 02-daily-utility-apps/concession-stand
-
-# Then run
-python shopping_cart.py
-# or
-python concession_stand.py
+# Navigate into any p
