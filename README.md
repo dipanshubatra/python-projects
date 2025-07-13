@@ -1,7 +1,7 @@
 # 🐍 Python Projects Repository
 
 Welcome to my collection of Python projects.  
-They are grouped by category for easy navigation.
+They are grouped by category for easy navigation and structured for learning and reuse.
 
 ---
 
@@ -10,6 +10,7 @@ They are grouped by category for easy navigation.
 | Project | Description |
 |--------|-------------|
 | [Shopping Cart](02-daily-utility-apps/shopping-cart) | A Python CLI tool to add food items, simulate a loading effect, and display a total price |
+| [Concession Stand](02-daily-utility-apps/Concession-stand) | An interactive food ordering CLI app with a menu system, confirmation step, animation, and billing |
 
 ---
 
@@ -37,5 +38,11 @@ Fun mini-projects and CLI games:
 # Go into the project folder
 cd 02-daily-utility-apps/shopping-cart
 
+# or
+
+cd 02-daily-utility-apps/concession-stand
+
 # Then run
 python shopping_cart.py
+# or
+python concession_stand.py
