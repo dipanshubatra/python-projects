@@ -34,8 +34,8 @@ dipanshunyx
 3. Exit
 4. Admin Panel
 Choose (1/2/3/4): 1
-Enter the text to encode => Hello World
-⊙8#§5#§12#§12#§15#¤#⊙23#§15#§18#§12#§4
+Enter the text to encode =>hello world[hello]
+141&#88§#58§#58§#87§#18§#041&#77§#58§#19§#88§#69§#¤#88§#58§#58§#87§#18§
 
 ---------------
 ## 🚀 How to Run
