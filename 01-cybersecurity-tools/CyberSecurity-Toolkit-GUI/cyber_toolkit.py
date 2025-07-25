@@ -179,8 +179,17 @@ def pass_saver():
     bt5.pack(pady=10)
     app.mainloop()
 ################################################################################    
-def_char = [' ', 'Aa', 'Bb', 'Cc', 'Dd', 'Ee', 'Ff', 'Gg', 'Hh', 'Ii','Jj', 'Kk', 'Ll', 'Mm', 'Nn', 'Oo', 'Pp', 'Qq', 'Rr', 'Ss','Tt', 'Uu', 'Vv', 'Ww', 'Xx', 'Yy', 'Zz']
-mainx = def_char.copy()
+mainx = [
+
+    ' ', 'Aa', 'Bb', 'Cc', 'Dd', 'Ee', 'Ff', 'Gg', 'Hh', 'Ii',
+    'Jj', 'Kk', 'Ll', 'Mm', 'Nn', 'Oo', 'Pp', 'Qq', 'Rr', 'Ss',
+    'Tt', 'Uu', 'Vv', 'Ww', 'Xx', 'Yy', 'Zz',
+    '00', '11', '22', '33', '44', '55', '66', '77', '88', '99',
+    '@@', '##', '$$', '%%', '^^', '&&', '**', '((', '))', '__',
+    '++', '--', '==', '~~', '``', '||', '!!', '::', ';;', '""',
+    "''", '..', ',,', '<<', '>>', '//', '\\\\', '??', '{{', '}}',
+    '[[' , ']]',]
+
 def cypher_nyx():
     global app2,app7,web9entry,text1,web11entry,text2,panel
     if app2:
@@ -210,7 +219,7 @@ def cypher_nyx():
     web11label = ctk.CTkLabel(tabv3,text="",font=("Ubuntu",26,"bold"))
     web11label.pack(pady=(70,0))
     animat_label(web11label,"ADMIN🧕")
-    web9entry= ctk.CTkEntry(tabv1,width=500,placeholder_text="Encode.......",corner_radius=15)
+    web9entry= ctk.CTkEntry(tabv1,width=500,placeholder_text="Encode.......",corner_radius=15,font=("Segoe UI Emoji",16))
     web9entry.pack(pady=20)
     text1 = ctk.CTkTextbox(tabv1,width=500,height=50)
     text1.pack(pady=10)
@@ -492,7 +501,7 @@ def cypher_pass() -> None:
     Shows a tiny dialog asking for the master password; if it matches,
     launches `cypher_nyx()`, otherwise shows an error.
     """
-    current_pass = _load_admin_pass()      # already defined above
+    current_pass = _load_admin_pass()    
 
     verify = ctk.CTk()
     verify.title("Cypher Login")
@@ -517,7 +526,7 @@ def cypher_pass() -> None:
     def _check_pwd() -> None:
         if pwd_entry.get() == current_pass:
             verify.destroy()
-            cypher_nyx()                  # open the Encode/Decode UI
+            cypher_nyx()               
         else:
             mb.showerror("Access denied", "Wrong password — try again!")
 
