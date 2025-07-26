@@ -20,6 +20,21 @@ They are grouped by category for easy navigation and structured for learning and
 | Project | Description |
 |--------|-------------|
 | [Text Cipher Encoder](01-cybersecurity-tools/text-cipher-encoder) | Encode/decode messages with a CLI cipher tool, animations, obfuscation, and admin panel |
+| [CyberSecurity GUI Toolkit](01-cybersecurity-tools/CyberSecurity-Toolkit-GUI) | A CustomTkinter-based GUI app with password saver, cipher encoder/decoder, admin panel, and tabbed layout |
+
+---
+
+<details>
+<summary>🔷 <strong>SOCKET-PROGRAMMING Projects (Click to Expand)</strong></summary>
+
+| Project | Description |
+|--------|-------------|
+| [🔵 Multi-Client Chat App](01-cybersecurity-tools/SOCKET-PROGRAMMING/MULTI-CLIENT-SERVER-CHAT-PROJECT) | 💬 Real-time multi-client chat system using Python sockets, threading, and server-client architecture |
+| [🔵 Port & Banner Scanner](01-cybersecurity-tools/SOCKET-PROGRAMMING/PORT-BANNER-SCANNER) | 🛡️ Scans target ports and grabs service banners with socket programming and multi-threading |
+
+📁 **Folder Path**: `01-cybersecurity-tools/SOCKET-PROGRAMMING/`
+
+</details>
 
 ---
 
