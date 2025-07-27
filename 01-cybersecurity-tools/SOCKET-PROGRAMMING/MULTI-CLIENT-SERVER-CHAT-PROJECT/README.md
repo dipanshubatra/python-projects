@@ -4,6 +4,12 @@ A beginner-friendly socket programming project where multiple clients can connec
 
 ---
 
+[![📂 Server Code](https://img.shields.io/badge/📂%20Open%20Server--blue?style=for-the-badge)](https://github.com/dipanshubatra/python-projects/blob/main/01-cybersecurity-tools/SOCKET-PROGRAMMING/MULTI-CLIENT-SERVER-CHAT-PROJECT/server.py)
+[![📂 Client Code](https://img.shields.io/badge/📂%20Open%20Client--blue?style=for-the-badge)](https://github.com/dipanshubatra/python-projects/blob/main/01-cybersecurity-tools/SOCKET-PROGRAMMING/MULTI-CLIENT-SERVER-CHAT-PROJECT/client.py)
+[![⬇️ Download ZIP](https://img.shields.io/badge/⬇️%20Download-All-Files-green?style=for-the-badge)](https://github.com/dipanshubatra/python-projects/archive/refs/heads/main.zip)
+
+---
+
 ## 🚀 Features
 
 - 📡 Multiple clients can chat simultaneously
