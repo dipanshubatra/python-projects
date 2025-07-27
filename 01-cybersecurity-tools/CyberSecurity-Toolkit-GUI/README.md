@@ -3,15 +3,10 @@
 A powerful and stylish Python GUI toolkit for cybersecurity tasks. Built using `CustomTkinter`, this tool provides password storage, encryption, and admin-level controls — all in a single offline desktop app.
 
 ---
-<p align="center">
-  <a href="https://github.com/dipanshunyx/Python-Projects/archive/refs/heads/main.zip">
-    <img src="https://img.shields.io/badge/⬇️-Download ZIP-green?style=for-the-badge" alt="Download ZIP">
-  </a>
-  &nbsp;
-  <a href="https://github.com/dipanshunyx/Python-Projects/tree/main/CyberSecurity-Toolkit-GUI">
-    <img src="https://img.shields.io/badge/View%20Project%20Folder-📁-blue?style=for-the-badge" alt="View Folder">
-  </a>
-</p>
+[![📂 Get Code](https://img.shields.io/badge/📂%20Open%20Code--blue?style=for-the-badge)](https://github.com/dipanshubatra/python-projects/blob/main/01-cybersecurity-tools/CyberSecurity-Toolkit-GUI/cyber_toolkit.py)
+[![⬇️ Download ZIP](https://img.shields.io/badge/⬇️%20Download-ZIP-green?style=for-the-badge)](https://github.com/dipanshubatra/python-projects/archive/refs/heads/main.zip)
+
+---
 
 ## 🧠 Features (with Detailed Explanation)
 
