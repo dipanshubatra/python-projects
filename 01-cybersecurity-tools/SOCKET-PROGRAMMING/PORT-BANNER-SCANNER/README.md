@@ -4,15 +4,9 @@ A blazing-fast, multithreaded port scanner with live banner grabbing. Built usin
 
 ---
 
-<p align="center">
-  <a href="https://github.com/dipanshunyx/Python-Projects/archive/refs/heads/main.zip">
-    <img src="https://img.shields.io/badge/⬇️-Download ZIP-green?style=for-the-badge" alt="Download ZIP">
-  </a>
-  &nbsp;
-  <a href="https://github.com/dipanshunyx/Python-Projects/tree/main/01-cybersecurity-tools/SOCKET-PROGRAMMING/PORT-BANNER-SCANNER">
-    <img src="https://img.shields.io/badge/View%20Project%20Folder-📁-blue?style=for-the-badge" alt="View Folder">
-  </a>
-</p>
+[![📂 Open Code](https://img.shields.io/badge/📂%20Open%20Port%20Scanner--blue?style=for-the-badge)](https://github.com/dipanshubatra/python-projects/blob/main/01-cybersecurity-tools/SOCKET-PROGRAMMING/PORT-BANNER-SCANNER/port_banner_scanner.py)
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP-green?style=for-the-badge)](https://github.com/dipanshubatra/python-projects/archive/refs/heads/main.zip)
+
 
 ---
 
