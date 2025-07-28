@@ -32,6 +32,18 @@ They are grouped by category for easy navigation and structured for learning and
 | [🔵 Multi-Client Chat App](01-cybersecurity-tools/SOCKET-PROGRAMMING/MULTI-CLIENT-SERVER-CHAT-PROJECT) | 💬 Real-time multi-client chat system using Python sockets, threading, and server-client architecture |
 | [🔵 Port & Banner Scanner](01-cybersecurity-tools/SOCKET-PROGRAMMING/PORT-BANNER-SCANNER) | 🛡️ Scans target ports and grabs service banners with socket programming and multi-threading |
 
+</details>
+
+<details>
+<summary>🔷 <strong>NETWORK-ATTACK-TOOLS Projects (Click to Expand)</strong></summary>
+
+| Project | Description |
+|--------|-------------|
+| [🔴 ARP Spoofer (MITM)](01-cybersecurity-tools/NETWORK-ATTACK-TOOLS/ARP-MITM-Attack) | 🧠 Performs ARP spoofing to position attacker as man-in-the-middle between two hosts, used for testing packet interception & DNS spoofing tools. |
+
+</details>
+
+
 📁 **Folder Path**: `01-cybersecurity-tools/SOCKET-PROGRAMMING/`
 
 </details>
