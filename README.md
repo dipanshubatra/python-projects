@@ -4,17 +4,6 @@ Welcome to my collection of Python projects.
 They are grouped by category for easy navigation and structured for learning and reuse.
 
 ---
-
-## 🧰 02 – Daily Utility Apps
-
-| Project | Description |
-|--------|-------------|
-| [Shopping Cart](02-daily-utility-apps/shopping-cart) | A Python CLI tool to add food items, simulate a loading effect, and display a total price |
-| [Concession Stand](02-daily-utility-apps/Concession-stand) | An interactive food ordering CLI app with a menu system, confirmation step, animation, and billing |
-| [Slots Game](02-daily-utility-apps/slots-game) | A fun emoji-based slot machine game with betting, balance, and sound effects |
-
----
-
 ## 🔐 01 – Cybersecurity Tools
 
 | Project | Description |
@@ -26,7 +15,7 @@ They are grouped by category for easy navigation and structured for learning and
 ---
 
 <details>
-<summary>🔷 <strong>🔌 SOCKET-PROGRAMMING ⚙️ | <span style="color:#00bfff"><strong>📂 PROJECTS HUB</strong></span></strong></summary>
+<summary>🔷 <strong>🔌 SOCKET-PROGRAMMING ⚙️ | <span style="color:#00bfff"><strong>📂 PROJECTS HUB</strong></span></strong> — <em>(Click to Expand Projects)</em></summary>
 
 <br>
 
@@ -43,19 +32,33 @@ They are grouped by category for easy navigation and structured for learning and
 ---
 
 <details>
-<summary>🔷 <strong>🛠️ NETWORK ATTACK TOOLS ⚔️ | <span style="color:#ff4500"><strong>🚨 PROJECTS ZONE</strong></span></strong></summary>
+<summary>🔷 <strong>🛠️ NETWORK ATTACK TOOLS ⚔️ | <span style="color:#ff4500"><strong>🚨 PROJECTS ZONE</strong></span></strong> — <em>(Click to Expand Projects)</em></summary>
 
 <br>
 
 | 🧠 Project Name | 💡 Description |
 |----------------|----------------|
 | 🔴 [ARP Spoofer (MITM)](01-cybersecurity-tools/NETWORK-ATTACK-TOOLS/ARP-MITM-Attack) | 🧠 Performs ARP spoofing to position attacker as man-in-the-middle between two hosts, used for testing packet interception & DNS spoofing tools. |
+| 🔴 [DNS Spoofing Tool](01-cybersecurity-tools/NETWORK-ATTACK-TOOLS/Dns-spoofing-tool) | 🎯 Intercepts DNS queries using NetfilterQueue and redirects target domains (e.g. neverssl.com) to a malicious IP using Scapy. |
 
 ---
 
 </details>
 
+
+
 ---
+
+## 🧰 02 – Daily Utility Apps
+
+| Project | Description |
+|--------|-------------|
+| [Shopping Cart](02-daily-utility-apps/shopping-cart) | A Python CLI tool to add food items, simulate a loading effect, and display a total price |
+| [Concession Stand](02-daily-utility-apps/Concession-stand) | An interactive food ordering CLI app with a menu system, confirmation step, animation, and billing |
+| [Slots Game](02-daily-utility-apps/slots-game) | A fun emoji-based slot machine game with betting, balance, and sound effects |
+
+---
+
 
 
 ## 🎮 03 – Games & Fun *(coming soon)*
