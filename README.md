@@ -1,6 +1,6 @@
 # 🐍 Python Projects Repository
 
-Welcome to my collection of Python projects.  
+Welcome to my collection of Python projectts.  
 They are grouped by category for easy navigation and structured for learning and reuse.
 
 ---
