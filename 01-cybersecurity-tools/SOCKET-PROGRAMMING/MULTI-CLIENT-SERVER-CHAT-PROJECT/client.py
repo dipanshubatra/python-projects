@@ -25,6 +25,6 @@ while True:
     if mesg.lower() == 'exit':
         client.send(f'{name} has left the chat'.encode())
         break
-    client.send(f'{name} :- {mesg}'.encode())
+    client.send(f'{name} :- {mesg}'.encode())  
 
 client.close()
