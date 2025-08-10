@@ -1,36 +1,31 @@
-import socket as s
-import threading
+import socket
 import ipaddress as ip
 from tqdm import tqdm
 import subprocess
 import platform
+from concurrent.futures import ThreadPoolExecutor
 
-print_lock = threading.Lock()
 ports = [21, 22, 23, 25, 53, 80, 110, 139, 143, 443, 445, 3306, 8080]
+PING_TIMEOUT = "500"  # milliseconds for ping
 
 def host_live(ip_address):
-    param = "-n" if platform.system().lower() == "windows" else "-c"
-    command = ["ping", param, "1", str(ip_address)]
-    result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    system_type = platform.system().lower()
+    if system_type == "windows":
+        command = ["ping", "-n", "1", "-w", PING_TIMEOUT, str(ip_address)]
+    else:
+        command = ["ping", "-c", "1", "-W", "1", str(ip_address)]
+    result = subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     return result.returncode == 0
 
-def scan(target_ip, port_main, bar):
-    server = None
+def scan_port(target_ip, port, bar):
     try:
-        if not host_live(str(target_ip)):
-            bar.update(1)
-            return
-
-        server = s.socket()
-        server.settimeout(2)
-        if server.connect_ex((str(target_ip), port_main)) == 0:
-            with print_lock:
-                print(f"[+] Port {port_main} is OPEN on {target_ip}")
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
+            server.settimeout(1)
+            if server.connect_ex((str(target_ip), port)) == 0:
+                print(f"[+] Port {port} is OPEN on {target_ip}")
     except:
         pass
     finally:
-        if server:    
-            server.close()
         bar.update(1)
 
 def main():
@@ -38,22 +33,31 @@ def main():
     try:
         network = ip.ip_network(target, strict=False)
         hosts = list(network.hosts())
-        total_tasks = len(hosts) * len(ports)
+
+        print("[~] Checking live hosts...")
+        live_hosts = []
+        with ThreadPoolExecutor(max_workers=200) as executor:
+            results = list(tqdm(executor.map(host_live, hosts), total=len(hosts), desc="Pinging Hosts", unit="host"))
+        live_hosts = [host for host, alive in zip(hosts, results) if alive]
+
+        print(f"[+] Found {len(live_hosts)} live hosts.")
+
+        total_tasks = len(live_hosts) * len(ports)
+        if total_tasks == 0:
+            print("[!] No live hosts found. Exiting.")
+            return
+
         bar = tqdm(total=total_tasks, desc="Scanning Ports", unit="port")
-        tqdm.write(f"\n[~] Scanning {len(hosts)} hosts across {len(ports)} ports ({total_tasks} tasks)\n")
-
-        threads = []
-        for host in hosts:
-            for port in ports:
-                thread = threading.Thread(target=scan, args=(host, port, bar), daemon=True)
-                thread.start()
-                threads.append(thread)
-
-        for t in threads:
-            t.join()
-
+        with ThreadPoolExecutor(max_workers=200) as executor:
+            for host in live_hosts:
+                for port in ports:
+                    executor.submit(scan_port, host, port, bar)
         bar.close()
+        print("[✓] Scan completed.")
+
     except Exception as e:
         print("[!] Error:", e)
 
-main()
+if __name__ == "__main__":
+    main()
+
