@@ -28,7 +28,6 @@ They are grouped by category for easy navigation and structured for learning and
 </details>
 
 ---
-
 <details>
 <summary>🔷 <strong>🛠️ NETWORK ATTACK TOOLS ⚔️ | <span style="color:#ff4500"><strong>🚨 PROJECTS ZONE</strong></span></strong> — <em>(Click to Expand Projects)</em></summary>
 
