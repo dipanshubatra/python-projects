@@ -47,6 +47,7 @@ They are grouped by category for easy navigation and structured for learning and
 
 ## 🧰 02 – Daily Utility Apps
 
+
 | Project | Description |
 |--------|-------------|
 | [Shopping Cart](02-daily-utility-apps/shopping-cart) | A Python CLI tool to add food items, simulate a loading effect, and display a total price |
