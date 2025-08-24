@@ -8,10 +8,9 @@ They are grouped by category for easy navigation and structured for learning and
 
 | Project | Description |
 |--------|-------------|
-| [🟣 Text Cipher Encoder](01-cybersecurity-tools/text-cipher-encoder) | 🔐 Encode/decode messages with a CLI cipher tool, animations, obfuscation, and admin panel |
-| [🟢 CyberSecurity GUI Toolkit](01-cybersecurity-tools/CyberSecurity-Toolkit-GUI) | 🧰 A CustomTkinter-based GUI app with password saver, cipher encoder/decoder, admin panel, and tabbed layout |
-| [🟠 AI Phishing Detector](01-cybersecurity-tools/phishing ai detector) | 🕵️‍♂️ Detects phishing URLs/emails using a trained ML model with Python, evaluates input, and flags suspicious links in real-time |
-
+| [🟣 Text Cipher Encoder](01-cybersecurity-tools/text-cipher-encoder/README.md) | 🔐 Encode/decode messages with a CLI cipher tool, animations, obfuscation, and admin panel |
+| [🟢 CyberSecurity GUI Toolkit](01-cybersecurity-tools/CyberSecurity-Toolkit-GUI/README.md) | 🧰 A CustomTkinter-based GUI app with password saver, cipher encoder/decoder, admin panel, and tabbed layout |
+| [🟠 AI Phishing Detector](01-cybersecurity-tools/phishing ai detector/README.md) | 🕵️‍♂️ Detects phishing URLs/emails using a trained ML model with Python, evaluates input, and flags suspicious links in real-time |
 ---
 
 <details>
