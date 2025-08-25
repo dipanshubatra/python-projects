@@ -1,4 +1,4 @@
-# 🐍 Python Projects Repositor
+# 🐍 Python Projects Repository
 
 Welcome to my collection of Python projects.  
 They are grouped by category for easy navigation and structured for learning and reuse.
