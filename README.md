@@ -4,7 +4,6 @@ Welcome to my collection of Python projects.
 They are grouped by category for easy navigation and structured for learning and reuse.
 
 ---
-
 ## 🔐 01 – Cybersecurity Tools
 
 | Project | Description |
@@ -12,7 +11,6 @@ They are grouped by category for easy navigation and structured for learning and
 | [🟣 Text Cipher Encoder](01-cybersecurity-tools/text-cipher-encoder/README.md) | 🔐 Encode/decode messages with a CLI cipher tool, animations, obfuscation, and admin panel |
 | [🟢 CyberSecurity GUI Toolkit](01-cybersecurity-tools/CyberSecurity-Toolkit-GUI/README.md) | 🧰 A CustomTkinter-based GUI app with password saver, cipher encoder/decoder, admin panel, and tabbed layout |
 | [🟠 AI Phishing Detector](01-cybersecurity-tools/phishing%20ai%20detector) | 🕵️‍♂️ Detects phishing URLs/emails using a trained ML model with Python, evaluates input, and flags suspicious links in real-time |
-
 ---
 
 <details>
@@ -29,6 +27,65 @@ They are grouped by category for easy navigation and structured for learning and
 </details>
 
 ---
+<details>
+<summary>🔷 <strong>🛠️ NETWORK ATTACK TOOLS ⚔️ | <span style="color:#ff4500"><strong>🚨 PROJECTS ZONE</strong></span></strong> — <em>(Click to Expand Projects)</em></summary>
+
+<br>
+
+| 🧠 Project Name | 💡 Description |
+|----------------|----------------|
+| 🔴 [ARP Spoofer (MITM)](01-cybersecurity-tools/NETWORK-ATTACK-TOOLS/ARP-MITM-Attack) | 🧠 Performs ARP spoofing to position attacker as man-in-the-middle between two hosts, used for testing packet interception & DNS spoofing tools. |
+| 🔴 [DNS Spoofing Tool](01-cybersecurity-tools/NETWORK-ATTACK-TOOLS/Dns-spoofing-tool) | 🎯 Intercepts DNS queries using NetfilterQueue and redirects target domains (e.g. neverssl.com) to a malicious IP using Scapy. |
+
+</details>
+
+
+
+---
+
+## 🧰 02 – Daily Utility Apps
+
+
+| Project | Description |
+|--------|-------------|
+| [Shopping Cart](02-daily-utility-apps/shopping-cart) | A Python CLI tool to add food items, simulate a loading effect, and display a total price |
+| [Concession Stand](02-daily-utility-apps/Concession-stand) | An interactive food ordering CLI app with a menu system, confirmation step, animation, and billing |
+| [Slots Game](02-daily-utility-apps/slots-game) | A fun emoji-based slot machine game with betting, balance, and sound effects |
+
+---
+
+
+
+## 🎮 03 – Games & Fun *(coming soon)*
+
+Fun mini-projects and CLI games:
+- Number guessing game
+- Snake game
+- Tic Tac Toe
+
+---
+
+## 💻 How to Run Projects
+
+> ✅ Make sure Python 3 is installed on your system  
+> 🪟 Some projects (like slots) use `winsound` – run them on **Windows OS** for full audio features
+
+```bash
+# Navigate into a project folder
+cd 02-daily-utility-apps/shopping-cart
+# or
+cd 01-cybersecurity-tools/text-cipher-encoder
+
+# Then run the script
+python shopping_cart.py
+# or
+python text_cipher_encoder.py
+# 🐍 Python Projects Repository
+
+Welcome to my collection of Python projects.  
+They are grouped by category for easy navigation and structured for learning and reuse.
+
+---
 
 ## 🧰 02 – Daily Utility Apps
 
@@ -40,11 +97,11 @@ They are grouped by category for easy navigation and structured for learning and
 
 ---
 
-## 🤖 04 – AI & ML Tools
+## 🔐 01 – Cybersecurity Tools
 
 | Project | Description |
 |--------|-------------|
-| [Disease Prediction Tool](04-ai-ml-tools/disease-prediction/README.md) | 🏥 Predicts stroke risk using ML (Logistic Regression + Scikit-learn pipeline), with training + interactive user prediction |
+| [Text Cipher Encoder](01-cybersecurity-tools/text-cipher-encoder) | Encode/decode messages with a CLI cipher tool, animations, obfuscation, and admin panel |
 
 ---
 
@@ -67,10 +124,8 @@ Fun mini-projects and CLI games:
 cd 02-daily-utility-apps/shopping-cart
 # or
 cd 01-cybersecurity-tools/text-cipher-encoder
-# or
-cd 04-ai-ml-tools/disease-prediction
 
-# Run the script
+# Then run the script
 python shopping_cart.py
+# or
 python text_cipher_encoder.py
-python predict.py
