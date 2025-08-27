@@ -54,15 +54,15 @@ They are grouped by category for easy navigation and structured for learning and
 
 ---
 
-## 🤖 04 – AI & ML Tools
+## 🤖 03 – AI & ML Tools
 
 | Project | Description |
 |--------|-------------|
-| [Disease Prediction Tool](04-ai-ml-tools/disease-prediction/README.md) | 🏥 Predicts stroke risk using ML (Logistic Regression + Scikit-learn pipeline), with training + interactive user prediction |
+| [Disease Prediction Tool](03-ai-ml-tools/disease-prediction/README.md) | 🏥 Predicts stroke risk using ML (Logistic Regression + Scikit-learn pipeline), with training + interactive user prediction |
 
 ---
 
-## 🎮 03 – Games & Fun *(coming soon)*
+## 🎮 04 – Games & Fun *(coming soon)*
 
 Fun mini-projects and CLI games:
 - Number guessing game
